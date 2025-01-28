@@ -1,0 +1,9 @@
+[package]
+name = "Computing_r_Torsion_Points_on_Elliptic_Curves_Over_Finite_Fields_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
+
