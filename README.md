@@ -9,6 +9,14 @@ This Rust program computes all $r$-torsion points on an elliptic curve defined o
 - Enumerates all points on the curve and checks if they satisfy the $r$-torsion condition.
 - Outputs all $r$-torsion points, including the point at infinity.
 
+## Installation
+
+1. Clone this repository: https://github.com/cypriansakwa/Computing_r_Torsion_Points_on_Elliptic_Curves_Over_Finite_Fields_in_Rust.git cd Computing_r_Torsion_Points_on_Elliptic_Curves_Over_Finite_Fields_in_Rust
+2. Add the required dependencies to `Cargo.toml`:
+   ```
+   num-bigint = "0.4"
+   num-integer = "0.1"
+   num-traits = "0.2"
 ## How It Works
 
 1. **Elliptic Curve Definition**:
